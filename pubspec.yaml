@@ -1,0 +1,19 @@
+name: plaid
+description: An overlay loader for your app
+version: 0.0.1
+author: Brian Schardt<brian.ja.schardt@gmail.com>
+homepage: https://github.com/prototype-two/flutter_overlay_loader
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  awesome_loader: ^0.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+flutter:
