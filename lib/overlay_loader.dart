@@ -8,7 +8,9 @@ Future<dynamic> overlayLoader({
   Color opacityColor = Colors.black,
   num opacity = .5,
 }) async {
-  OverlayState overlayState = Overlay.of(context);
+  final navigatorState = Navigator.of(context, rootNavigator: false);
+  final overlayState = navigatorState.overlay;
+  
   OverlayEntry overlayEntryOpacity = OverlayEntry(
     builder: (context) {
       return Opacity(
